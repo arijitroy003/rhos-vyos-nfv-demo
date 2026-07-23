@@ -50,7 +50,7 @@ if [[ -r ${SRC_DIR}/${ANSIBLE_DIR}/${PLAYBOOK} ]]; then
     ERRORS=$(( ${ERRORS} + 1 ))
   fi
 
-  if [[ ${ERRORS} -gt 0 ]]; then
+  if [[ ${ERRORS} -eq 0 ]]; then
     echo Required images are present.
   fi
 else
