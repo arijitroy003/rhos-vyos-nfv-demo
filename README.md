@@ -24,9 +24,9 @@ The following pre-requisites must be met prior to executing the demo:
     image files which make up the VyOS appliance and Cirros for the test VM. You can check
     if Git LFS is installed by typing "git lfs status" and if it is installed, you will get a message
     stating: "Not in a git repository.".  If you get something other than that, you must install Git
-    LFS prior to cloing.
+    LFS prior to cloning.
   - Clone this repository with:
-      git lfs clone https://github.com/redhatdemocentral/rhos-vyos-nfv-demo
+      git lfs clone https://github.com/RedHatOfficial/rhos-vyos-nfv-demo
 
 Setup and Configuration
 -----------------------
@@ -50,9 +50,9 @@ Install git LFS:
 
   1. mkdir ~stack/git-lfs
   2. cd ~stack/git-lfs
-  3. curl -o git-lfs-linux-amd64-2.3.4.tar.gz -L https://github.com/git-lfs/git-lfs/releases/download/v2.3.4/git-lfs-linux-amd64-2.3.4.tar.gz
-  4. tar -zxvf git-lfs-linux-amd64-2.3.4.tar.gz 
-  5. cd git-lfs-2.3.4/
+  3. curl -o git-lfs-linux-amd64-3.6.1.tar.gz -L https://github.com/git-lfs/git-lfs/releases/download/v3.6.1/git-lfs-linux-amd64-3.6.1.tar.gz
+  4. tar -zxvf git-lfs-linux-amd64-3.6.1.tar.gz 
+  5. cd git-lfs-3.6.1/
   6. sudo ./install.sh
   7. git lfs install
 
