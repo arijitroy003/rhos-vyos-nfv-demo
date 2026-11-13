@@ -50,8 +50,8 @@ Install git LFS:
 
   1. mkdir ~stack/git-lfs
   2. cd ~stack/git-lfs
-  3. curl -o git-lfs-linux-amd64-3.6.1.tar.gz -L https://github.com/git-lfs/git-lfs/releases/download/v3.6.1/git-lfs-linux-amd64-3.6.1.tar.gz
-  4. tar -zxvf git-lfs-linux-amd64-3.6.1.tar.gz 
+  3. curl -o git-lfs-linux-amd64-v3.6.1.tar.gz -L https://github.com/git-lfs/git-lfs/releases/download/v3.6.1/git-lfs-linux-amd64-v3.6.1.tar.gz
+  4. tar -zxvf git-lfs-linux-amd64-v3.6.1.tar.gz
   5. cd git-lfs-3.6.1/
   6. sudo ./install.sh
   7. git lfs install
@@ -65,7 +65,7 @@ behind for review.  First, there is the user_data file which is passed to the Vy
 and used by vyos-cloudinit to configure the appliance.
 
 The other artifacts are generated if if the playbook instantiates the VyOS appliance and virtual machine.
-The playbook will also generate an additional YAML and hosts file in the ./run sub-directory that can be used 
-to demonstrate use of the vyos_config Ansible module to forward port 22 from the external interface 
+The playbook will also generate an additional YAML and hosts file in the ./run sub-directory that can be used
+to demonstrate use of the vyos_config Ansible module to forward port 22 from the external interface
 of the VyOS appliance to the back end Virtual Machine.
 
